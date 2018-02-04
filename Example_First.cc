@@ -38,7 +38,7 @@ public:
 };
 
 void fraction::show() {
-	
+	cout <<"show";
 }
 int main()
 {

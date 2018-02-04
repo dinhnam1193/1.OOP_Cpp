@@ -49,7 +49,7 @@ public:
 		return complex_t;
 	}
 
-	//Nap trong toan tu tru 
+	//Nap trong toan tu Nhan(*) 
 	complexNumber operator*(complexNumber& complex) {
 		complexNumber complex_t(0,0);
 		complex_t.setRealNum(this->getRealNum() * complex.getRealNum());

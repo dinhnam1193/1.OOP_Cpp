@@ -2,12 +2,6 @@
 #include <stdio.h>
 #include <stdint.h>
 
-using namespace std;
-
-#include <iostream>
-#include <stdio.h>
-#include <stdint.h>
-
 #define PI 3.14159
 
 using namespace std;
@@ -98,11 +92,6 @@ int main()
 	complexNumber Subtrac(0, 0);
 	Subtrac = comple1 / comple2;
 	Subtrac.show();
-
-	getchar();
-	return 0;
-}
-
 
 	getchar();
 	return 0;
